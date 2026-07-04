@@ -6,26 +6,36 @@ const IS_GITHUB_ACTIONS = process.env.GITHUB_ACTIONS === 'true';
 
 const defaultTopNav = [
       { text: 'Home', link: '/' },
-      { text: 'Setup', link: '/setup' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Utils', items: [
-                          { text: 'Images', link: '/utils/images' },
-                          { text: 'Youtube', link: '/utils/youtube' },
-                          { text: 'Mermaid', link: '/utils/mermaid' },
-                          { text: 'Maths', link: '/utils/maths' },
+      { text: 'Breakfast', link: '/breakfast/' },
+      { text: 'Lunch', link: '/lunch/' },
+      { text: 'Dinner', link: '/dinner/' },
+      { text: 'Other', items: [
+                          { text: 'Snacks', link: '/snacks/' },
+                          { text: 'Weekend', link: '/weekend/' },
+                          { text: 'Festival', link: '/festival/' },
+                          { text: 'Masala', link: '/masala/' },
                         ]
       },
+      
+      { text: 'Glossary', link: '/glossary' },
     ];
 
 const sidebarDefault = [
-      {
-        collapsed: true,
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      { text: 'Breakfast', link: '/breakfast/' },
+      { text: 'Lunch', link: '/lunch/' },
+      { text: 'Dinner', link: '/dinner/' },
+      { text: 'Snacks', link: '/snacks/' },
+      { text: 'Weekend', link: '/weekend/' },
+      { text: 'Festival', link: '/festival/' },
+      { text: 'Masala', link: '/masala/' },
+      { text: 'Glossary', link: '/glossary/' },
+      // {
+      //   collapsed: true,
+      //   text: 'Breakfast',
+      //   items: [
+      //     { text: 'Poha', link: '/breakfast/poha' },
+      //   ]
+      // }
     ];
 
 const sidebarUtils = [
