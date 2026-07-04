@@ -79,9 +79,9 @@ export default defineConfig({
       "/utils/": sidebarUtils,
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ],
     search: { provider: 'local' },
 		// TODO: Agolia AI search
   },
