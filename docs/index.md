@@ -3,36 +3,35 @@
 layout: home
 
 hero:
-  name: "recipe-book"
-  text: "recipe-book"
-  tagline: My great project tagline
+  name: "Parul's"
+  text: "recipe book"
+  tagline: Quick recipes
   image:
     alt: Hero Image
     # src: /images/background.png
     src: https://img.magnific.com/free-vector/cute-man-super-hero-flying-cartoon-vector-icon-illustration-people-holiday-icon-isolated-flat-vector_138676-12120.jpg?semt=ais_hybrid&w=740&q=80
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Home
+      link: /
     - theme: alt
-      text: Utils
-      link: /utils/images
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Dinner
+      link: /dinner/
 
 features:
-  - title: Feature A
+  - title: Breakfast
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     icon: 🪐
-    link: /api-examples
+    link: /breakfast/
     linkText: Check API examples
-  - title: Feature B
+  - title: Lunch
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     icon:
       dark: /images/alien.png
       light: /images/alien2.png
-  - title: Feature C
+    link: /lunch/
+  - title: Dinner
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /dinner/
 ---
 
